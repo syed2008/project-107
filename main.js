@@ -37,6 +37,6 @@ if (error){
     document.getElementById("result_emotion_name").innerHTML = results[0].label;
     document.getElementById("result_emotion_name2").innerHTML = results[1].label;
 predicition_1 = results[0].label;
-predicition_2 = results[1].label;
+
 speak();
 if(results[0].label == "Amazing") { document.getElementById("update_emoji").innerHTML = "&#128076;"; } if(results[0].label == "Best") { document.getElementById("update_emoji").innerHTML = "&#128077;"; } if(results[0].label == "Victory") { document.getElementById("update_emoji").innerHTML = "&#9996;"; } if(results[1].label == "Amazing") { document.getElementById("update_emoji2").innerHTML = "&#128522;"; } if(results[1].label == "Best") { document.getElementById("update_emoji2").innerHTML = "&#128077;"; } if(results[1].label == "Victory") { document.getElementById("update_emoji2").innerHTML = "&#9996;"; } } }
